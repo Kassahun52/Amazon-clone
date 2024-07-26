@@ -6,7 +6,7 @@ const LayOut = ({children}) => {
         <div>
             <Header/>
             {children}
-            <Footer/>
+            <Footer/> 
         </div>
     )
 }

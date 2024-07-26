@@ -27,14 +27,18 @@
 .catagory p{
   font-size: 12px;
   font-weight: bold;
-  color: rgb(9,132,200);
+  color: rgb(9,132,209);
   margin-left: 15px;
 }
 .catagory_container{
   position: relative;
-  margin: -100px 0 0 0;
+  margin-top: -10%;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  max-width: 1600px;
+  gap: 50px;
+  margin-right: auto;
+  margin-left: auto;
   place-items: center;
 }
 
